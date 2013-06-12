@@ -1,0 +1,44 @@
+Version: 1
+Seed: 76553
+Residences:
+  endport:
+    EnterMessage: Welcome %player to %residence, owned by %owner.
+    BlackList:
+      Type: BLACKLIST
+      ItemList: []
+    LeaveMessage: Now leaving %residence.
+    IgnoreList:
+      Type: IGNORELIST
+      ItemList: []
+    Areas:
+      main:
+        X1: 923
+        Y1: 42
+        Z1: 293
+        X2: 915
+        Y2: 36
+        Z2: 279
+    Subzones: {}
+    Permissions:
+      PlayerFlags:
+        tomasos36:
+          container: true
+          ignite: true
+          use: true
+          build: true
+          move: true
+      GroupFlags: {}
+      AreaFlags:
+        pvp: false
+        firespread: false
+        container: false
+        tnt: false
+        ignite: false
+        piston: false
+        use: false
+        creeper: false
+        flow: false
+        build: false
+      Owner: tomasos36
+      World: world
+    StoredMoney: 0
